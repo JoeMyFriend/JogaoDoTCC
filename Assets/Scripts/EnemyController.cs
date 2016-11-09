@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		
 	}
 	
 	// Update is called once per frame
@@ -48,7 +48,7 @@ public class EnemyController : MonoBehaviour {
 			anime.SetTrigger ("atack");
 
 			vida.perdeVida (30);
-			player.AddForce(new Vector2(200, 0));
+
 		}
 	}
 }
