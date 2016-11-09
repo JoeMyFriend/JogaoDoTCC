@@ -1,0 +1,395 @@
+fileFormatVersion: 2
+guid: 8184524d3b2a86e468814f6c84fd8a73
+timeCreated: 1476365861
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Illusion_Walk_0
+    21300002: Illusion_Walk_1
+    21300004: Illusion_Walk_2
+    21300006: Illusion_Walk_3
+    21300008: Illusion_Walk_4
+    21300010: Illusion_Walk_5
+    21300012: Illusion_Walk_6
+    21300014: Illusion_Walk_7
+    21300016: Illusion_Walk_8
+    21300018: Illusion_Walk_9
+    21300020: Illusion_Walk_10
+    21300022: Illusion_Walk_11
+    21300024: Illusion_Walk_12
+    21300026: Illusion_Walk_13
+    21300028: Illusion_Walk_14
+    21300030: Illusion_Walk_15
+    21300032: Illusion_Walk_16
+    21300034: Illusion_Walk_17
+    21300036: Illusion_Walk_18
+    21300038: Illusion_Walk_19
+    21300040: Illusion_Walk_20
+    21300042: Illusion_Walk_21
+    21300044: Illusion_Walk_22
+    21300046: Illusion_Walk_23
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Illusion_Walk_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 488
+        width: 53
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_1
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 487
+        width: 58
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_2
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 486
+        width: 64
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_3
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 486
+        width: 71
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_4
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 485
+        width: 79
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_5
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 485
+        width: 84
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 326
+        width: 87
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 323
+        width: 88
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_8
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 321
+        width: 87
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_9
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 320
+        width: 80
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_10
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 318
+        width: 72
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_11
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 317
+        width: 61
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_12
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 159
+        width: 55
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_13
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 159
+        width: 51
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_14
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 158
+        width: 60
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_15
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 159
+        width: 69
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_16
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 159
+        width: 78
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_17
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 161
+        width: 88
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 91
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 7
+        width: 86
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_20
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 11
+        width: 73
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_21
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 14
+        width: 59
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_22
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 15
+        width: 52
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Illusion_Walk_23
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 16
+        width: 52
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

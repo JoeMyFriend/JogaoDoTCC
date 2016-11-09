@@ -1,0 +1,551 @@
+fileFormatVersion: 2
+guid: 8e244bda3f8334347beb33be29e70488
+timeCreated: 1465320894
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PersonagemTeste_0
+    21300002: PersonagemTeste_1
+    21300004: PersonagemTeste_2
+    21300006: PersonagemTeste_3
+    21300008: PersonagemTeste_4
+    21300010: PersonagemTeste_5
+    21300012: PersonagemTeste_6
+    21300014: PersonagemTeste_7
+    21300016: PersonagemTeste_8
+    21300018: PersonagemTeste_9
+    21300020: PersonagemTeste_10
+    21300022: PersonagemTeste_11
+    21300024: PersonagemTeste_12
+    21300026: PersonagemTeste_13
+    21300028: PersonagemTeste_14
+    21300030: PersonagemTeste_15
+    21300032: PersonagemTeste_16
+    21300034: PersonagemTeste_17
+    21300036: PersonagemTeste_18
+    21300038: PersonagemTeste_19
+    21300040: PersonagemTeste_20
+    21300042: PersonagemTeste_21
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PersonagemTeste_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 85
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5, y: 31.5}
+        - {x: -5, y: 31.5}
+        - {x: -19, y: 25.5}
+        - {x: -22, y: 7.5}
+        - {x: -22, y: -28.5}
+        - {x: -21, y: -31.5}
+        - {x: 22, y: -31.5}
+        - {x: 22, y: 15.5}
+        - {x: 14, y: 23.5}
+    - name: PersonagemTeste_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 85
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: 21}
+        - {x: 13, y: 32}
+        - {x: -7, y: 32}
+        - {x: -21, y: 29}
+        - {x: -25, y: 21}
+        - {x: -25, y: -32}
+        - {x: 25, y: -32}
+        - {x: 25, y: 8}
+        - {x: 22, y: 11}
+    - name: PersonagemTeste_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 85
+        width: 58
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -18.5}
+        - {x: -12, y: -31.5}
+        - {x: 29, y: -31.5}
+        - {x: 29, y: -11.5}
+        - {x: 21, y: 23.5}
+        - {x: 11, y: 31.5}
+        - {x: -16, y: 31.5}
+        - {x: -29, y: 25.5}
+    - name: PersonagemTeste_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 85
+        width: 62
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 9.5}
+        - {x: 6, y: 32.5}
+        - {x: -12, y: 32.5}
+        - {x: -30, y: 23.5}
+        - {x: -31, y: 20.5}
+        - {x: -31, y: -11.5}
+        - {x: -13, y: -17.5}
+        - {x: -6, y: -32.5}
+        - {x: 31, y: -32.5}
+        - {x: 31, y: -17.5}
+        - {x: 29, y: -14.5}
+    - name: PersonagemTeste_4
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 14
+        width: 60
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 67}
+        - {x: -30, y: 62}
+        - {x: -30, y: 20}
+        - {x: -26, y: 21}
+        - {x: -23, y: 22}
+        - {x: -23, y: 29}
+        - {x: -23, y: 27}
+        - {x: -16, y: 19}
+        - {x: -30, y: -9}
+        - {x: -30, y: -28}
+        - {x: -10, y: -67}
+        - {x: 18, y: -67}
+        - {x: 30, y: -32}
+        - {x: 30, y: 43}
+        - {x: 13, y: 67}
+    - name: PersonagemTeste_5
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 85
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 31}
+        - {x: -19.5, y: 13}
+        - {x: -19.5, y: -31}
+        - {x: 19.5, y: -31}
+        - {x: 19.5, y: 11}
+        - {x: 14.5, y: 31}
+    - name: PersonagemTeste_6
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 85
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 28.5}
+        - {x: -24, y: 24.5}
+        - {x: -24, y: -16.5}
+        - {x: -22, y: -28.5}
+        - {x: 24, y: -28.5}
+        - {x: 24, y: 25.5}
+        - {x: 23, y: 28.5}
+    - name: PersonagemTeste_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 85
+        width: 49
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 32.5}
+        - {x: -19.5, y: 32.5}
+        - {x: -24.5, y: 23.5}
+        - {x: -24.5, y: -31.5}
+        - {x: -22.5, y: -32.5}
+        - {x: 24.5, y: -32.5}
+        - {x: 24.5, y: 1.5}
+        - {x: 11.5, y: 23.5}
+    - name: PersonagemTeste_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 85
+        width: 55
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: 26}
+        - {x: 18.5, y: 21}
+        - {x: 13.5, y: 29}
+        - {x: -27.5, y: 29}
+        - {x: -27.5, y: -29}
+        - {x: 27.5, y: -29}
+        - {x: 27.5, y: 20}
+        - {x: 21.5, y: 27}
+    - name: PersonagemTeste_9
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 85
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 32.5}
+        - {x: -30, y: 7.5}
+        - {x: -30, y: -32.5}
+        - {x: 21, y: -32.5}
+        - {x: 30, y: -8.5}
+        - {x: 30, y: 15.5}
+        - {x: 13, y: 32.5}
+      - - {x: 21, y: -32.5}
+        - {x: 21, y: -30.5}
+        - {x: 18, y: -29.5}
+        - {x: 16, y: -32.5}
+    - name: PersonagemTeste_10
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 85
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30.5}
+        - {x: -28, y: 20.5}
+        - {x: -28, y: -30.5}
+        - {x: 28, y: -30.5}
+        - {x: 28, y: 30.5}
+      - - {x: 22, y: -30.5}
+        - {x: 22, y: -28.5}
+        - {x: 19, y: -27.5}
+        - {x: 17, y: -30.5}
+    - name: PersonagemTeste_11
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 109
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: PersonagemTeste_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31.5}
+        - {x: -31, y: 12.5}
+        - {x: -32, y: 7.5}
+        - {x: -32, y: -27.5}
+        - {x: -28, y: -31.5}
+        - {x: 24, y: -31.5}
+        - {x: 32, y: -29.5}
+        - {x: 32, y: 21.5}
+        - {x: 4, y: 31.5}
+    - name: PersonagemTeste_13
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -13.5}
+        - {x: 30, y: 11.5}
+        - {x: 18, y: 27.5}
+        - {x: 7, y: 31.5}
+        - {x: -18, y: 31.5}
+        - {x: -30, y: 18.5}
+        - {x: -30, y: -0.5}
+        - {x: -23, y: -1.5}
+        - {x: -30, y: -1.5}
+        - {x: -30, y: -16.5}
+        - {x: -25, y: -27.5}
+        - {x: -19, y: -31.5}
+        - {x: -4, y: -31.5}
+        - {x: -4, y: -28.5}
+        - {x: -1, y: -31.5}
+        - {x: 25, y: -31.5}
+      - - {x: 18, y: -16.5}
+        - {x: 21, y: -15.5}
+        - {x: 21, y: -12.5}
+        - {x: 18, y: -11.5}
+        - {x: 16, y: -13.5}
+    - name: PersonagemTeste_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 32}
+        - {x: -12, y: 31}
+        - {x: -29, y: 23}
+        - {x: -29, y: -10}
+        - {x: -16, y: -32}
+        - {x: 15, y: -32}
+        - {x: 29, y: -15}
+        - {x: 29, y: 12}
+        - {x: 9, y: 32}
+    - name: PersonagemTeste_15
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 6
+        width: 54
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6, y: 36.5}
+        - {x: -17, y: 36.5}
+        - {x: -27, y: 12.5}
+        - {x: -27, y: -13.5}
+        - {x: -9, y: -36.5}
+        - {x: 6, y: -36.5}
+        - {x: 14, y: -25.5}
+        - {x: 27, y: -21.5}
+        - {x: 27, y: 26.5}
+      - - {x: -23, y: 24.5}
+        - {x: -20, y: 25.5}
+        - {x: -20, y: 28.5}
+        - {x: -23, y: 29.5}
+        - {x: -25, y: 27.5}
+    - name: PersonagemTeste_16
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 12
+        width: 60
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 36}
+        - {x: -29, y: 34}
+        - {x: -26, y: 26}
+        - {x: -23, y: 19}
+        - {x: -27, y: 25}
+        - {x: -30, y: 26}
+        - {x: -30, y: -5}
+        - {x: -20, y: -36}
+        - {x: 15, y: -36}
+        - {x: 28, y: -6}
+        - {x: 28, y: 36}
+      - - {x: 27, y: -12}
+        - {x: 29, y: -14}
+        - {x: 30, y: -14}
+        - {x: 30, y: -9}
+        - {x: 28, y: -9}
+    - name: PersonagemTeste_17
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 10
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 14.5}
+        - {x: 17.5, y: 10.5}
+        - {x: 10.5, y: 29.5}
+        - {x: 4.5, y: 36.5}
+        - {x: -21.5, y: 36.5}
+        - {x: -23.5, y: 26.5}
+        - {x: -23.5, y: -25.5}
+        - {x: -20.5, y: -36.5}
+        - {x: 23.5, y: -36.5}
+        - {x: 23.5, y: 16.5}
+        - {x: 22.5, y: 17.5}
+    - name: PersonagemTeste_18
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 4
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 8.5}
+        - {x: 15, y: 10.5}
+        - {x: 15, y: 19.5}
+        - {x: 11, y: 29.5}
+        - {x: 6, y: 36.5}
+        - {x: -21, y: 36.5}
+        - {x: -21, y: -17.5}
+        - {x: -17, y: -36.5}
+        - {x: 21, y: -36.5}
+        - {x: 21, y: 14.5}
+        - {x: 19, y: 14.5}
+    - name: PersonagemTeste_19
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 0
+        width: 51
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 36}
+        - {x: -15.5, y: -26}
+        - {x: -13.5, y: -36}
+        - {x: 25.5, y: -36}
+        - {x: 25.5, y: 26}
+        - {x: 12.5, y: 36}
+      - - {x: -22.5, y: -12}
+        - {x: -22.5, y: -9}
+        - {x: -25.5, y: -8}
+        - {x: -25.5, y: -13}
+    - name: PersonagemTeste_20
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 0
+        width: 51
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 31.5}
+        - {x: -15.5, y: 29.5}
+        - {x: -15.5, y: -15.5}
+        - {x: -9.5, y: -31.5}
+        - {x: 25.5, y: -31.5}
+        - {x: 25.5, y: 23.5}
+        - {x: 11.5, y: 31.5}
+      - - {x: -22.5, y: -11.5}
+        - {x: -22.5, y: -8.5}
+        - {x: -25.5, y: -7.5}
+        - {x: -25.5, y: -12.5}
+    - name: PersonagemTeste_21
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 0
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 31}
+        - {x: -20.5, y: 31}
+        - {x: -27.5, y: 17}
+        - {x: -27.5, y: -7}
+        - {x: -17.5, y: -31}
+        - {x: 22.5, y: -31}
+        - {x: 24.5, y: -26}
+        - {x: 24.5, y: 16}
+      - - {x: -29.5, y: -11}
+        - {x: -29.5, y: -8}
+        - {x: -32.5, y: -7}
+        - {x: -32.5, y: -12}
+      - - {x: 29.5, y: -10}
+        - {x: 31.5, y: -12}
+        - {x: 32.5, y: -12}
+        - {x: 32.5, y: -7}
+        - {x: 30.5, y: -7}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
