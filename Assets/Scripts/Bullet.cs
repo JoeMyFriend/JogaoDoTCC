@@ -21,7 +21,9 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D colisor){
 		if(colisor.gameObject.tag == "Player"){
-			vida.perdeVida (dano);
+			vida.perdeVida(dano);
+			Debug.Log ("Colidiu");
 		}
+		Destroy (gameObject);
 	}
 }

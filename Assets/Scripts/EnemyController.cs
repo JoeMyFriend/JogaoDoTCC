@@ -15,6 +15,8 @@ public class EnemyController : MonoBehaviour {
 
 	public bool run;
 
+	public int dano;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -47,7 +49,7 @@ public class EnemyController : MonoBehaviour {
 
 			anime.SetTrigger ("atack");
 
-			vida.perdeVida (30);
+			vida.perdeVida (dano);
 
 		}
 	}
