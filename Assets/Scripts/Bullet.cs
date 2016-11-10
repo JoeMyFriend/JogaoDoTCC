@@ -6,7 +6,6 @@ public class Bullet : MonoBehaviour {
 	public float velocidade;
 	public int dano;
 
-	public Vida vida;
 
 	// Use this for initialization
 	void Start () {
@@ -21,7 +20,10 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D colisor){
 		if(colisor.gameObject.tag == "Player"){
-			vida.perdeVida (dano);
+			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+			vida.perdeVida(dano);
+			Debug.Log ("Colidiu");
 		}
+		Destroy (gameObject);
 	}
 }
