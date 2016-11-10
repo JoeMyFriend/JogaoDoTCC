@@ -6,7 +6,8 @@ public class EnemyController : MonoBehaviour {
 	public Animator anime;
 	public Transform enemyTransform;
 	public float speed;
-	public Vida vida;
+
+
 	public Rigidbody2D player;
 
 	private float tempoNaDirecao;
@@ -15,9 +16,12 @@ public class EnemyController : MonoBehaviour {
 
 	public bool run;
 
+	public int dano;
+
+
+
 	// Use this for initialization
 	void Start () {
-		
 	}
 	
 	// Update is called once per frame
@@ -46,8 +50,8 @@ public class EnemyController : MonoBehaviour {
 		if (colisor.gameObject.tag == "Player") {
 
 			anime.SetTrigger ("atack");
-
-			vida.perdeVida (30);
+			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+			vida.perdeVida (dano);
 
 		}
 	}
