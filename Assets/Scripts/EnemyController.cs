@@ -13,6 +13,7 @@ public class EnemyController : MonoBehaviour {
 	private float tempoNaDirecao;
 	public float duracaoDirecao;
 	public bool direcao;
+	public float forcaEmpurrao;
 
 	public bool run;
 
@@ -53,6 +54,12 @@ public class EnemyController : MonoBehaviour {
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
 
 			vida.perdeVida (dano);
+
+			if (player.transform.eulerAngles.y == 0) {
+				colisor.rigidbody.AddForce (new Vector2 (-forcaEmpurrao, 0));
+			} else {
+				colisor.rigidbody.AddForce (new Vector2 (forcaEmpurrao, 0));
+			}
 
 		}
 	}
