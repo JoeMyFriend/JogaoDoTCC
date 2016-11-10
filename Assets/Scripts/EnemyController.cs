@@ -18,8 +18,11 @@ public class EnemyController : MonoBehaviour {
 
 	public int dano;
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
 	// Use this for initialization
 	void Start () {
 	}
@@ -50,7 +53,11 @@ public class EnemyController : MonoBehaviour {
 		if (colisor.gameObject.tag == "Player") {
 
 			anime.SetTrigger ("atack");
+<<<<<<< HEAD
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+=======
+
+>>>>>>> origin/master
 			vida.perdeVida (dano);
 
 		}
