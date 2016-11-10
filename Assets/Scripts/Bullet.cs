@@ -23,8 +23,6 @@ public class Bullet : MonoBehaviour {
 
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
 
-			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
-
 			vida.perdeVida(dano);
 			Debug.Log ("Colidiu");
 		}

@@ -52,8 +52,6 @@ public class EnemyController : MonoBehaviour {
 
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
 
-			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
-
 			vida.perdeVida (dano);
 
 		}
