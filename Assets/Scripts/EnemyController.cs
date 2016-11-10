@@ -19,7 +19,6 @@ public class EnemyController : MonoBehaviour {
 	public int dano;
 
 
-
 	// Use this for initialization
 	void Start () {
 	}
@@ -50,7 +49,11 @@ public class EnemyController : MonoBehaviour {
 		if (colisor.gameObject.tag == "Player") {
 
 			anime.SetTrigger ("atack");
+
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+
+			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+
 			vida.perdeVida (dano);
 
 		}

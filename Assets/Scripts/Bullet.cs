@@ -20,7 +20,11 @@ public class Bullet : MonoBehaviour {
 
 	void OnCollisionEnter2D(Collision2D colisor){
 		if(colisor.gameObject.tag == "Player"){
+
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+
+			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
+
 			vida.perdeVida(dano);
 			Debug.Log ("Colidiu");
 		}
