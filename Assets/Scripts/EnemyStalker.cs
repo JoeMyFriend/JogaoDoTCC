@@ -40,10 +40,10 @@ public class EnemyStalker : MonoBehaviour {
 			var vida = colisor.gameObject.transform.GetComponent<Vida> ();
 			vida.perdeVida (dano);
 
-			if (player.transform.eulerAngles.y == 0) {
-				colisor.rigidbody.AddForce (new Vector2 (-forcaEmpurrao, 0));
-			} else {
+			if (transform.eulerAngles.y == 0) {
 				colisor.rigidbody.AddForce (new Vector2 (forcaEmpurrao, 0));
+			} else {
+				colisor.rigidbody.AddForce (new Vector2 (-forcaEmpurrao, 0));
 			}
 
 

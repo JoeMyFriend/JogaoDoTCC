@@ -8,8 +8,6 @@ public class EnemyController : MonoBehaviour {
 	public float speed;
 
 
-	public Rigidbody2D player;
-
 	private float tempoNaDirecao;
 	public float duracaoDirecao;
 	public bool direcao;
@@ -55,12 +53,12 @@ public class EnemyController : MonoBehaviour {
 
 			vida.perdeVida (dano);
 
-			if (player.transform.eulerAngles.y == 0) {
-				colisor.rigidbody.AddForce (new Vector2 (-forcaEmpurrao, 0));
-			} else {
+			if (transform.eulerAngles.y == 0) {
 				colisor.rigidbody.AddForce (new Vector2 (forcaEmpurrao, 0));
+			} else {
+				colisor.rigidbody.AddForce (new Vector2 (-forcaEmpurrao, 0));
 			}
-
+				
 		}
 	}
 }
