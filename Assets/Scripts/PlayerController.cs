@@ -7,13 +7,16 @@ public class PlayerController : MonoBehaviour {
 	public GameObject player;
 
 	public Animator anime;
+
 	public Rigidbody2D 	playerRigidBody;
-	public int forceJump;
-	public int speed;
+
+
+	public float forceJump;
+	public float speed;
 	public int maxSpeed;
 
 	// Velocidade no pulo
-	public int speedInJump;
+	public float speedInJump;
 
 
 	public bool jump;
@@ -34,31 +37,35 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 
 		if (Input.GetButtonDown ("Jump") && grounded) {
-			playerRigidBody.AddForce (new Vector2 (0, forceJump));
+			playerRigidBody.AddForce (transform.up * forceJump);
 			jump = true;
 
 		}
 		if(Input.GetAxisRaw("Horizontal") > 0 && grounded){
-			playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime, 0));
+			//playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime, 0));
+			transform.Translate(Vector2.right * speed * Time.deltaTime);
 			run = true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 0);
 		}
 
 		if(Input.GetAxisRaw("Horizontal") < 0 && grounded){
-			playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime * -1, 0));
+			//playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime * -1, 0));
+			transform.Translate(Vector2.right * speed * Time.deltaTime);
 			run= true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 180);
 		}
 
 
 		if(Input.GetAxisRaw("Horizontal") > 0 && !grounded){
-			playerRigidBody.AddForce (new Vector2((speedInJump) * Time.deltaTime, 0));
+			//playerRigidBody.AddForce (new Vector2((speedInJump) * Time.deltaTime, 0));
+			transform.Translate(Vector2.right * speedInJump * Time.deltaTime);
 			run = true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 0);
 		}
 
 		if(Input.GetAxisRaw("Horizontal") < 0 && !grounded){
-			playerRigidBody.AddForce (new Vector2((speedInJump) * Time.deltaTime * -1, 0));
+			//playerRigidBody.AddForce (new Vector2((speedInJump) * Time.deltaTime * -1, 0));
+			transform.Translate(Vector2.right * speedInJump * Time.deltaTime);
 			run= true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 180);
 		}
