@@ -16,11 +16,20 @@ public class HumanController : MonoBehaviour {
 
 	public float speedInJump;
 
+	// Correr
 	public bool run;
+
+
+	// Ataque
+	public bool atacou;
+	public float duracaoParadoNoAtaque;
+	private float contagemIntervalo;
 
 	public LayerMask whatIsGround;
 	public bool grounded;
 	public Transform groundCheck;
+
+
 
 
 	// Use this for initialization
@@ -31,14 +40,14 @@ public class HumanController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetAxisRaw("Horizontal") > 0 && grounded){
+		if(Input.GetAxisRaw("Horizontal") > 0 && grounded && !atacou){
 			//playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime, 0));
 			transform.Translate(Vector2.right * speed * Time.deltaTime);
 			run = true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 0);
 		}
 
-		if(Input.GetAxisRaw("Horizontal") < 0 && grounded){
+		if(Input.GetAxisRaw("Horizontal") < 0 && grounded && !atacou){
 			//playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime * -1, 0));
 			transform.Translate(Vector2.right * speed * Time.deltaTime);
 			run= true;
@@ -67,6 +76,22 @@ public class HumanController : MonoBehaviour {
 
 		if(Input.GetButtonUp("Horizontal")){
 			run = false;
+		}
+			
+		// Atacar
+
+		if(Input.GetButtonDown("Fire1")){
+			anime.SetTrigger ("atacou");
+			atacou = true;
+
+		}
+
+		if(atacou){
+			contagemIntervalo += Time.deltaTime;
+			if(contagemIntervalo >= duracaoParadoNoAtaque){
+				atacou = false;
+				contagemIntervalo = 0;
+			}
 		}
 
 		grounded = Physics2D.OverlapCircle (groundCheck.position, 0.2f, whatIsGround);
