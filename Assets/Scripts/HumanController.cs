@@ -29,6 +29,8 @@ public class HumanController : MonoBehaviour {
 	public bool grounded;
 	public Transform groundCheck;
 
+	public Transform colisor;
+
 
 
 
@@ -80,9 +82,16 @@ public class HumanController : MonoBehaviour {
 			
 		// Atacar
 
-		if(Input.GetButtonDown("Fire1")){
+		if(Input.GetButtonDown("Fire1") && !atacou){
 			anime.SetTrigger ("atacou");
 			atacou = true;
+
+				if (player.transform.rotation.y == 0) {
+					colisor.position = new Vector3 (colisor.position.x + 0.6f, colisor.position.y, colisor.position.z);
+				} else{
+					colisor.position = new Vector3 (colisor.position.x - 0.6f, colisor.position.y, colisor.position.z);
+				}
+				contagemIntervalo = 0;
 
 		}
 
@@ -91,6 +100,14 @@ public class HumanController : MonoBehaviour {
 			if(contagemIntervalo >= duracaoParadoNoAtaque){
 				atacou = false;
 				contagemIntervalo = 0;
+
+
+				if (player.transform.rotation.y == 0) {
+					colisor.position = new Vector3 (colisor.position.x - 0.6f, colisor.position.y, colisor.position.z);
+				} else{
+					colisor.position = new Vector3 (colisor.position.x + 0.6f, colisor.position.y, colisor.position.z);
+				}
+
 			}
 		}
 
@@ -100,5 +117,11 @@ public class HumanController : MonoBehaviour {
 
 		anime.SetBool ("jump", !grounded);
 	
+	}
+	void OnTriggerEnter2D(Collider2D colisor){
+		if (colisor.gameObject.tag == "Enemy") {
+			Debug.Log ("Batendo no rapai");
+			Destroy (colisor.gameObject);
+		}
 	}
 }

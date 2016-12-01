@@ -5,8 +5,16 @@ using UnityEngine.SceneManagement;
 public class CarregaCena : MonoBehaviour {
 
 
-	public void LoadScene(int level){
+	public void StartScene(int level){
 		SceneManager.LoadScene(level);
+	}
+		
+	public void LoadScene(){
+		Debug.Log (PlayerPrefs.HasKey("faseSalva"));
+		if(PlayerPrefs.HasKey("faseSalva")){
+			Debug.Log (PlayerPrefs.HasKey("faseSalva"));
+			SceneManager.LoadScene (PlayerPrefs.GetInt("faseSalva"));
+		}
 	}
 
 	// Use this for initialization
