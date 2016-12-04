@@ -17,6 +17,10 @@ public class CarregaCena : MonoBehaviour {
 		}
 	}
 
+	public void QuitScene(){
+		Application.Quit ();
+	}
+
 	// Use this for initialization
 	void Start () {
 	}
