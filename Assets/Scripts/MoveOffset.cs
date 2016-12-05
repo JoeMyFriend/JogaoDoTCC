@@ -4,8 +4,10 @@ using System.Collections;
 public class MoveOffset : MonoBehaviour {
 
 	private Material currentMaterial;
-	public float speed;
-	private float offset;
+	public float speedX;
+	public float speedY;
+	private float offsetX;
+	private float offsetY;
 
 	// Use this for initialization
 	void Start () {
@@ -14,8 +16,9 @@ public class MoveOffset : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		offset += speed * Time.deltaTime;
+		offsetX += speedX * Time.deltaTime;
+		offsetY += speedY * Time.deltaTime;
 
-		currentMaterial.SetTextureOffset ("_MainTex", new Vector2(offset, 0));
+		currentMaterial.SetTextureOffset ("_MainTex", new Vector2(offsetX, offsetY));
 	}
 }
