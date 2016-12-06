@@ -23,13 +23,20 @@ public class HumanController : MonoBehaviour {
 	// Ataque
 	public bool atacou;
 	public float duracaoParadoNoAtaque;
+	public float duracaoRolamento;
 	private float contagemIntervalo;
 
 	public LayerMask whatIsGround;
 	public bool grounded;
 	public Transform groundCheck;
 
+
+	// Colisores
 	public Transform colisor;
+	public Transform colisorRolamento;
+
+	// Rolar
+	public bool roll;
 
 
 
@@ -71,7 +78,7 @@ public class HumanController : MonoBehaviour {
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 180);
 		}
 
-		if (Input.GetButtonDown ("Jump") && grounded) {
+		if (Input.GetButtonDown ("Jump") && grounded && !roll) {
 			playerRigidBody.AddForce (transform.up * forceJump);
 		}
 
@@ -82,7 +89,7 @@ public class HumanController : MonoBehaviour {
 			
 		// Atacar
 
-		if(Input.GetButtonDown("Fire1") && !atacou){
+		if(Input.GetButtonDown("Fire1") && !atacou && !roll){
 			anime.SetTrigger ("atacou");
 			atacou = true;
 
@@ -111,11 +118,28 @@ public class HumanController : MonoBehaviour {
 			}
 		}
 
+		if(Input.GetButtonDown("Roll") && !roll && !atacou && grounded){
+			roll = true;
+
+			colisorRolamento.position = new Vector3 (colisorRolamento.position.x, colisorRolamento.position.y - 0.85f, colisorRolamento.position.z);
+		}
+
+		if(roll){
+			contagemIntervalo += Time.deltaTime;
+			if(contagemIntervalo >= duracaoRolamento){
+				colisorRolamento.position = new Vector3 (colisorRolamento.position.x, colisorRolamento.position.y + 0.85f, colisorRolamento.position.z);
+				roll = false;
+				contagemIntervalo = 0;
+			}
+		}
+
 		grounded = Physics2D.OverlapCircle (groundCheck.position, 0.2f, whatIsGround);
 
 		anime.SetBool ("run", run);
 
 		anime.SetBool ("jump", !grounded);
+
+		anime.SetBool ("roll", roll);
 	
 	}
 	void OnTriggerEnter2D(Collider2D colisor){
