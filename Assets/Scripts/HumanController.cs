@@ -40,23 +40,21 @@ public class HumanController : MonoBehaviour {
 
 
 
-
 	// Use this for initialization
 	void Start () {
-	
 	}
 	
 	// Update is called once per frame
 	void Update () {
 
-		if(Input.GetAxisRaw("Horizontal") > 0 && grounded && !atacou){
+		if(Input.GetAxisRaw("Horizontal") > 0 && grounded && !atacou && !Portao.colidiu){
 			//playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime, 0));
 			transform.Translate(Vector2.right * speed * Time.deltaTime);
 			run = true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 0);
 		}
 
-		if(Input.GetAxisRaw("Horizontal") < 0 && grounded && !atacou){
+		if(Input.GetAxisRaw("Horizontal") < 0 && grounded && !atacou && !Portao.colidiu){
 			//playerRigidBody.AddForce (new Vector2((speed) * Time.deltaTime * -1, 0));
 			transform.Translate(Vector2.right * speed * Time.deltaTime);
 			run= true;
@@ -64,21 +62,21 @@ public class HumanController : MonoBehaviour {
 		}
 
 
-		if(Input.GetAxisRaw("Horizontal") > 0 && !grounded){
+		if(Input.GetAxisRaw("Horizontal") > 0 && !grounded && !Portao.colidiu){
 			//playerRigidBody.AddForce (new Vector2((speedInJump) * Time.deltaTime, 0));
 			transform.Translate(Vector2.right * speedInJump * Time.deltaTime);
 			run = true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 0);
 		}
 
-		if(Input.GetAxisRaw("Horizontal") < 0 && !grounded){
+		if(Input.GetAxisRaw("Horizontal") < 0 && !grounded && !Portao.colidiu){
 			//playerRigidBody.AddForce (new Vector2((speedInJump) * Time.deltaTime * -1, 0));
 			transform.Translate(Vector2.right * speedInJump * Time.deltaTime);
 			run= true;
 			playerRigidBody.transform.eulerAngles = new Vector2 (0, 180);
 		}
 
-		if (Input.GetButtonDown ("Jump") && grounded && !roll) {
+		if (Input.GetButtonDown ("Jump") && grounded && !roll && !Portao.colidiu) {
 			playerRigidBody.AddForce (transform.up * forceJump);
 		}
 
@@ -89,7 +87,7 @@ public class HumanController : MonoBehaviour {
 			
 		// Atacar
 
-		if(Input.GetButtonDown("Fire1") && !atacou && !roll){
+		if(Input.GetButtonDown("Fire1") && !atacou && !roll && !Portao.colidiu){
 			anime.SetTrigger ("atacou");
 			atacou = true;
 
@@ -118,7 +116,7 @@ public class HumanController : MonoBehaviour {
 			}
 		}
 
-		if(Input.GetButtonDown("Roll") && !roll && !atacou && grounded){
+		if(Input.GetButtonDown("Roll") && !roll && !atacou && grounded && !Portao.colidiu){
 			roll = true;
 
 			colisorRolamento.position = new Vector3 (colisorRolamento.position.x, colisorRolamento.position.y - 0.85f, colisorRolamento.position.z);

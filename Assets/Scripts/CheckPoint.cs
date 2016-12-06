@@ -23,7 +23,7 @@ public class CheckPoint : MonoBehaviour {
 			anime.SetTrigger ("relou");
 
 
-			Debug.Log (PlayerPrefs.HasKey("faseSalva"));
+			//Debug.Log (PlayerPrefs.HasKey("faseSalva"));
 
 		}
 	}

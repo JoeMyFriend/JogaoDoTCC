@@ -17,11 +17,13 @@ public class Vida : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+
+		/*
 		if(Input.GetMouseButtonDown(0)){
 			perdeVida (20);
 			Debug.Log ("Clicou");
 		}
+		*/
 	}
 
 	public void perdeVida(int dano){
@@ -37,6 +39,18 @@ public class Vida : MonoBehaviour {
 
 		vida.GetComponent<GUIText> ().text = "HP: " + vidaAtual + "/" + maxVida;
 
+	}
+
+	public void recuperaVida(int recupera){
+		vidaAtual += recupera;
+		if(vidaAtual > maxVida){
+			vidaAtual = maxVida;
+		}
+		if((vidaAtual * 100 / maxVida) >=30){
+			vida.GetComponent<GUIText> ().color = Color.green;
+		}
+
+		vida.GetComponent<GUIText>().text = "HP: " + vidaAtual + "/" + maxVida;
 	}
 
 
