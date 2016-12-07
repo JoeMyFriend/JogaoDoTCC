@@ -4,7 +4,6 @@ using UnityEngine.SceneManagement;
 
 public class Portao : MonoBehaviour {
 
-	public Rigidbody2D player;
 	public int proximaFase;
 	public GameObject dialogo;
 	private string fala;
@@ -44,6 +43,12 @@ public class Portao : MonoBehaviour {
 			}
 			if (proximaFase == 3) {
 				dialogo.GetComponent<GUIText> ().text = Falas.fala2;
+			}
+			if (proximaFase == 4) {
+				dialogo.GetComponent<GUIText> ().text = Falas.fala3;
+			}
+			if (proximaFase == 0) {
+				dialogo.GetComponent<GUIText> ().text = Falas.fala4;
 			}
 
 
