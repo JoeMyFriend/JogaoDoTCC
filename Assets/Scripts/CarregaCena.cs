@@ -16,7 +16,7 @@ public class CarregaCena : MonoBehaviour {
 			SceneManager.LoadScene (PlayerPrefs.GetInt("faseSalva"));
 		}
 	}
-
+		
 	public void QuitScene(){
 		Application.Quit ();
 	}
